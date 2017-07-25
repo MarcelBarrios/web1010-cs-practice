@@ -1,0 +1,66 @@
+body {
+    background-color: pink;
+}
+
+.logo {
+    color:red;
+}
+
+blockquote {
+    background-color: #ff0000;
+    margin: 40px 00 50px 0;
+    padding: 20px 00 20px 0;
+    border: 00px 00 00px 0;
+}
+
+
+menu-item {
+    color: green;
+}
+
+.above-the-fold {
+    background-attachment: fixed;
+}
+
+.menu-item:visited {
+    color: #444;
+}
+
+.card p{
+    color: #fff;
+}
+
+.card button{
+    background-color: #AFA;
+    color: #fff;
+}
+
+.blog-article p::first-letter {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+p::selection {
+    background-color: yellow;
+}
+
+.blog {
+    background-color: #666;
+    color: #cff;
+}
+
+.gallery figure {
+    transition: box-shadow .9s, background-color .2s;
+
+}
+
+.gallery figure:hover {
+    box-shadow: 0px 100px 350px 0px #000;
+}
+
+.gallery figcaption {
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
